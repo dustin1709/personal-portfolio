@@ -1,14 +1,5 @@
-/*
- * Generic intro
- * Education (High School, College)
- * Technical skills
- */
-
 import React from "react";
-import { useState, useEffect } from "react";
-import { useNavigate, Navigate, Link, NavLink } from 'react-router-dom';
 import NavBar from "../../Components/NavBar/NavBar";
-import * as FaIcons from 'react-icons/fa';
 import './Experience.css';
 import Footer from "../../Components/Footer/Footer";
 
