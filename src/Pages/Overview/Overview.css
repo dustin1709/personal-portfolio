@@ -1,0 +1,125 @@
+.cont {
+    text-align: left;
+}
+
+.cont a {
+    text-align: left;
+}
+
+#smaller {
+    font-size: 90%;
+}
+
+.cont button {
+    margin-right: 1%;
+}
+
+ul {
+    list-style: none;
+}
+
+.space {
+    clear: both;
+    padding: 0.5em;
+}
+
+.listEle {
+    display: inline-block;
+    margin-top: 1%;
+    padding: 0.5em;
+    width: 18.8%;
+}
+
+.listEle li {
+    float: left;
+    position: relative;
+}
+
+label {
+    float: left;
+    width: 5em;
+    text-align: left;
+    margin-right: .5em;
+    clear: left;
+}
+
+input[type=text], textarea {
+    float: left;
+    clear: left;
+    width: 100%;
+    padding: 12px 20px;
+    margin-right: 3.5%; margin-top: 1%;
+    border-bottom: 2px solid #232423; 
+    border-top: none; 
+    border-left: none; 
+    border-right: none;
+}
+
+input[type=text]:focus {
+    background-color: #c4c4c4;
+    outline: none;
+}
+
+textarea:focus {
+    background-color: #c4c4c4;
+    outline: none;
+}
+
+h1 {
+    text-align: left;
+    padding-top: 1.5%;
+}
+
+button[type=submit] {
+    float: left;
+}
+
+.formFloatRight {
+    width: 50%;
+    padding: 50%;
+    background-position: center;
+    background-size: cover;
+}
+.formFloatLeft {
+    width: 90%;
+    padding-bottom: 3%;
+    padding-top: 10%;
+}
+
+.formFloatLeft form {
+    width: 100%;
+    padding-top: 1%;
+}
+
+@media only screen and (max-width: 890px) {
+    .cont {
+        padding-right: 3%;
+    }
+    
+    .listEle {
+        display: list-item;
+        padding-top: 5%;
+        clear: both;
+        width: 100%;
+    }
+
+    .formFloatRight {
+        display: none;
+    }
+
+    .formFloatLeft {
+        width: 100%;
+        padding-bottom: 5%;
+        padding-left: 8%;
+    }
+
+    #first {
+        position: relative;
+        width: 100%;
+    }
+
+    input[type=text], textarea {
+        width: 100%;
+        padding: 15px 80px 30px 10px;
+    }
+}
